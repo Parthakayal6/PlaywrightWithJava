@@ -1,0 +1,26 @@
+# app.pageName.TypeWebElementName.LocatorType=value
+
+playwrightGapIntake:
+  c1ClientIDPage:
+    buttonAddClientID:
+      xpath: //span[text()='userDefinedInput']/../button[@data-testid='add-button']
+    dropDownClientIDStatus:
+      xpath: C//*[@id='demo-simple-select-required'])[2]
+    textClientID:
+      id: clientId
+    textClientIDName:
+      id: name
+    textReportingID:
+      id: reportingId
+    textComments:
+      id: comments
+    buttonSave:
+      testid: c1ClientId-save-button
+    buttonCancel:
+      testid: reportingId-cancel-button
+    dialogTitle:
+      xpath: //h2[@id='customized-dialog-title']
+    genericErrorList:
+      xpath: //div[contains(@class,'MuiBox-root css') or contains(@class,'MuiDialogContent-root')]//p[contains(@class,'error')]
+    alertMessage:
+      xpath: //div[contains(@class,'MuiAlert-message css')]

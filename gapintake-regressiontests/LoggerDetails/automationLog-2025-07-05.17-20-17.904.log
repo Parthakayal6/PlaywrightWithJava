@@ -1,0 +1,4 @@
+2025-07-05 17:20:18,704 INFO [main] o.t.i.Utils [Logger.java:112] - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+2025-07-05 17:20:19,613 WARN [main] o.t.i.Utils [Logger.java:133] - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 

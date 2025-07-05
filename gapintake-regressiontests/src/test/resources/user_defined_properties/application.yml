@@ -1,0 +1,15 @@
+threadCount: 3
+browser: chrome
+driverVersion: NA
+environment: remote
+maxPageWait: 20
+browserResolution: 1920,1080
+windowMaximize: true
+#gapIntakeSitUrl: https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+gapIntakeSitUrl: https://tatadigital.com/
+gapIntakeUatUrl: https://gapintake-ui-qi.apps.qeps.gbt.gbtad.com/
+downloadFolderName: DownloadFolder
+headlessMode: false
+incognitoMode: false
+userEmail: SVC_C_SU@gbt.gbtad.com
+password: \'WcMa6g@2oDLXKQn7vb9kXz

@@ -1,0 +1,43 @@
+2025-07-05 17:30:03,085 INFO [main] o.t.i.Utils [Logger.java:112] - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2023.2\temp-testng-customsuite.xml
+
+2025-07-05 17:31:19,279 INFO [TestNG-PoolService-2] s.BrowserServiceManager [BrowserServiceManager.java:64] - Browser driver has been created using reused context
+2025-07-05 17:31:19,283 INFO [TestNG-PoolService-2] s.ScreenshotServiceManager [ScreenshotServiceManager.java:19] - ScreenshotServiceManager initialized with page: com.microsoft.playwright.impl.PageImpl@5009faec
+2025-07-05 17:31:19,294 INFO [TestNG-PoolService-2] s.Hooks [Hooks.java:37] - Completed setup for scenario: Create new client ID2
+2025-07-05 17:31:19,294 INFO [TestNG-PoolService-1] s.BrowserServiceManager [BrowserServiceManager.java:64] - Browser driver has been created using reused context
+2025-07-05 17:31:19,296 INFO [TestNG-PoolService-1] s.ScreenshotServiceManager [ScreenshotServiceManager.java:19] - ScreenshotServiceManager initialized with page: com.microsoft.playwright.impl.PageImpl@15f47fbe
+2025-07-05 17:31:19,301 INFO [TestNG-PoolService-1] s.Hooks [Hooks.java:37] - Completed setup for scenario: Create new client ID1
+2025-07-05 17:31:19,391 INFO [TestNG-PoolService-2] s.BrowserServiceManager [BrowserServiceManager.java:82] - Navigating to URL: https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+2025-07-05 17:31:19,403 INFO [TestNG-PoolService-1] s.BrowserServiceManager [BrowserServiceManager.java:82] - Navigating to URL: https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+2025-07-05 17:31:19,425 INFO [TestNG-PoolService-2] u.NetworkLogger [NetworkLogger.java:19] - Request: GET https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+2025-07-05 17:31:19,425 INFO [TestNG-PoolService-1] u.NetworkLogger [NetworkLogger.java:19] - Request: GET https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+2025-07-05 17:31:19,525 WARN [TestNG-PoolService-2] u.NetworkLogger [NetworkLogger.java:13] - Request failed: https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+2025-07-05 17:31:19,526 WARN [TestNG-PoolService-2] u.NetworkLogger [NetworkLogger.java:14] - Failure reason: net::ERR_NAME_NOT_RESOLVED
+2025-07-05 17:31:19,576 WARN [TestNG-PoolService-1] u.NetworkLogger [NetworkLogger.java:13] - Request failed: https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+2025-07-05 17:31:19,578 WARN [TestNG-PoolService-1] u.NetworkLogger [NetworkLogger.java:14] - Failure reason: net::ERR_NAME_NOT_RESOLVED
+2025-07-05 17:31:19,703 ERROR [TestNG-PoolService-1] s.BrowserServiceManager [BrowserServiceManager.java:94] - Failed to load URL 'https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/': Error {
+  message='net::ERR_NAME_NOT_RESOLVED at https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+  name='Error
+  stack='Error: net::ERR_NAME_NOT_RESOLVED at https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+    at FrameSession._navigate (C:\Users\User\AppData\Local\Temp\playwright-java-5687759105729948026\package\lib\server\chromium\crPage.js:490:13)
+    at async Frame._gotoAction (C:\Users\User\AppData\Local\Temp\playwright-java-5687759105729948026\package\lib\server\frames.js:518:28)
+}
+Call log:
+-   - navigating to "https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/", waiting until "load"
+
+2025-07-05 17:31:19,713 ERROR [TestNG-PoolService-2] s.BrowserServiceManager [BrowserServiceManager.java:94] - Failed to load URL 'https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/': Error {
+  message='net::ERR_NAME_NOT_RESOLVED at https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+  name='Error
+  stack='Error: net::ERR_NAME_NOT_RESOLVED at https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/
+    at FrameSession._navigate (C:\Users\User\AppData\Local\Temp\playwright-java-5687759105729948026\package\lib\server\chromium\crPage.js:490:13)
+    at async Frame._gotoAction (C:\Users\User\AppData\Local\Temp\playwright-java-5687759105729948026\package\lib\server\frames.js:518:28)
+}
+Call log:
+-   - navigating to "https://gapintake-ui-qi.apps.deps.gbt.gbtad.com/", waiting until "load"
+
+2025-07-05 17:31:24,858 INFO [TestNG-PoolService-1] s.ScreenshotServiceManager [ScreenshotServiceManager.java:47] - Screenshot has been captured
+2025-07-05 17:31:24,858 INFO [TestNG-PoolService-2] s.ScreenshotServiceManager [ScreenshotServiceManager.java:47] - Screenshot has been captured
+2025-07-05 17:31:25,202 INFO [TestNG-PoolService-2] s.BrowserServiceManager [BrowserServiceManager.java:454] - Browser driver has been closed
+2025-07-05 17:31:25,202 INFO [TestNG-PoolService-1] s.BrowserServiceManager [BrowserServiceManager.java:454] - Browser driver has been closed
+2025-07-05 17:31:25,204 INFO [TestNG-PoolService-2] s.Hooks [Hooks.java:64] - Done setup for scenario: Create new client ID2
+2025-07-05 17:31:25,204 INFO [TestNG-PoolService-1] s.Hooks [Hooks.java:64] - Done setup for scenario: Create new client ID1
