@@ -16,6 +16,7 @@ public class AssertionServiceManager {
         this.softAssert = new SoftAssert();
     }
 
+    
     /**
      * This method performs a soft assertion to check if two strings are equal.
      *
