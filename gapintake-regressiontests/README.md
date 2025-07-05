@@ -19,6 +19,7 @@
 ## Languages and Tools
 * Java
 * Playwright (Java)
+* Maven
 
 ## Playwright Java Test Organization Best Practices
 ##   Test Flow Overview
